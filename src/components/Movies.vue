@@ -129,8 +129,8 @@ export default {
   }
 
   & h5 {
-    margin: 0 0.5rem;
-    margin-top: 1.3rem;
+    margin: 1.3rem 0.5rem 0;
+    padding-top: 0.7rem;
     font-weight: bolder;
     font-size: 1rem;
   }
