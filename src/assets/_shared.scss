@@ -1,0 +1,16 @@
+$side-border : 0.01rem solid rgb(216, 212, 212);
+$inside-border : 0.1rem solid rgb(235, 229, 229);
+$border-radius : 0.5rem;
+$bg-btn-color : rgb(24, 181, 243);
+$bg-black : #000;
+$bg-white : #fff;
+$shadow : rgba(0, 0, 0, 0.2) 0 0 10px;
+@mixin bigFlexCenter {
+    display: flex;
+  justify-content: center;
+}
+@mixin bigFlexBetweenAlign {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
