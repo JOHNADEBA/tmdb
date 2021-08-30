@@ -125,7 +125,7 @@ body {
 }
 .app {
   @include bigFlexCenter;
-  width: 90%;
+  width: 95%;
   margin: 3rem auto;
   font-family: Source Sans Pro, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -138,7 +138,7 @@ h2 {
   width: 18rem;
 }
 .movies {
-  width: calc(100% - 19rem);
+  width: calc(100% - 20rem);
 }
 .load-btn {
   margin: 1.2rem 0 0 1rem;

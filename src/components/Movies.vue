@@ -111,12 +111,12 @@ export default {
   flex-wrap: wrap;
 }
 .movie-container {
-  width: 18%;
-  height: 28rem;
+  width: 19%;
+  height: 25rem;
   border: $side-border;
   border-radius: $border-radius;
   box-shadow: $shadow;
-  margin: 0.5rem;
+  margin: 0.5rem 0.1rem;
   padding-bottom: 1rem;
   position: relative;
   cursor: pointer;
@@ -145,7 +145,7 @@ export default {
   & .vote {
     @include bigFlexCenter;
     position: absolute;
-    bottom: 7.8rem;
+    bottom: 6.5rem;
     left: 1rem;
     align-items: center;
 
@@ -160,6 +160,13 @@ export default {
         color: $bg-white;
       }
     }
+  }
+}
+
+@media screen and (min-width: 1330px) {
+  .movie-container {
+    width: 18%;
+    margin: 0.5rem 0.5rem;
   }
 }
 
